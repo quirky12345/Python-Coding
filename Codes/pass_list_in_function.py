@@ -6,9 +6,13 @@ def even_odd(lst):
             odd += 1
         else:
             even += 1
-    return even,odd
-
-lst = [1,2,3,4,5]
+    return even, odd
+n = int(input("Enter the size of list: "))
+lst = []
+for i in range(n):
+    a = int(input("Enter the number: "))
+    lst.append(a)
 even, odd = even_odd(lst)
 print("even numbers: ", even)
 print("odd numbers: ", odd)
+print("Even : {} and Odd: {}".format(even,odd))
