@@ -1,4 +1,5 @@
 #abstract class and abstract method
+#python does not directly directly support abstract classes and methods
 #we have to import ABC class to make Computer class abstract
 #Also, we can't create objects from abstract classes
 #abstract method are those who has declaration but not definition/body
